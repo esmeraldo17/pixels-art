@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  margin: 0;
+}
+body{
+  background-color: rgb(116, 210, 210);
+}
+
+.card{
+  margin: 90px;
+  margin-left: 500px;
+  margin-right: 500px;
+  padding: 20px;
+  border-radius: 30px;
+  background-color: rgb(194, 241, 241);
+}
+
+.color {
+  display: inline-block;
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+}
+
+.pixel {
+  margin: 0;
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+}
+
+body {
+  margin-top: 10%;
+}
+
+header, .inputs, .pixel, #pixel-board, #color-palette {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.color{
+  margin: 10px;
+}
+
+.pixel{
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  margin: 5px;
+  border-radius: 8px;
+  border: 1px solid wheat;
+  padding: 5px;
+  background-color: rgb(169, 203, 203);
+  font-size: 20px;
+}
+
+#add-btn:hover {
+  background-color: green;
+  color: white;
+}
+
+#clear-btn:hover {
+  background-color: red;
+  color: white;
+}
+
